@@ -2,7 +2,7 @@ on:
   push:
     branches: [modified-script]
     paths:
-      - "AnalyticRules/*.json"
+      - "KQL/*.json"
   workflow_dispatch:
 
 permissions:
