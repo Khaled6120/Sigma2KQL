@@ -1,7 +1,7 @@
 on:
     push:
-        branches: [modified-script]
-        paths:
+      branches: [modified-script]
+      paths:
         - "KQL/*.yaml"
     workflow_dispatch:
 
